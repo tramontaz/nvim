@@ -17,12 +17,10 @@ Plug 'https://github.com/preservim/tagbar'
 Plug 'https://github.com/morhetz/gruvbox'
  " Plug 'https://github.com/tc50cal/vim-terminal'
 
-" commands
-command Run execute "w\n!python3 %"
- 
 call plug#end()
+
 colorscheme gruvbox
 
 nnoremap <C-n> :NERDTreeFocus<CR>
 nnoremap <F8> :TagbarToggle<CR>
-nnoremap <F7> :Run<CR>
+nnoremap <F7> :!python3 %<CR>
