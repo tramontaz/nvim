@@ -1,4 +1,4 @@
-Requerements:
+Requirements:
  - git
  - neovim
  - curl
